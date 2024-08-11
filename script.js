@@ -8,7 +8,7 @@ function evaluateExpression() {
         if (e.name === 'OutOfRangeError' || e.name === 'InvalidExprError') {
           alert('failed');
         } else {
-          alert('An unexpected error occurred.');
+          alert('failed');
         }
       }
     }
