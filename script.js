@@ -3,7 +3,7 @@ function evaluateExpression() {
 
       try {
         const result = evalString(input);
-        alert('Result: ' + result);
+        alert('passed');
       } catch (e) {
         if (e.name === 'OutOfRangeError' || e.name === 'InvalidExprError') {
           alert('Evaluation failed: ' + e.message);
