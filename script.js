@@ -6,7 +6,7 @@ function evaluateExpression() {
         alert('passed');
       } catch (e) {
         if (e.name === 'OutOfRangeError' || e.name === 'InvalidExprError') {
-          alert('Evaluation failed: ' + e.message);
+          alert('failed');
         } else {
           alert('An unexpected error occurred.');
         }
